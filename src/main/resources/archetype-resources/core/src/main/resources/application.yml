@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: @profiles.active@
+  application:
+    name: spring
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
